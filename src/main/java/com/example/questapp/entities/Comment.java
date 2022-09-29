@@ -1,3 +1,4 @@
+/*
 package com.example.questapp.entities;
 
 
@@ -7,6 +8,7 @@ import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Data
@@ -36,6 +38,9 @@ public class Comment {
 
 
 
+    @Temporal(TemporalType.TIMESTAMP)
+    Date createDate;
 
 
 }
+*/
