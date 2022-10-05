@@ -1,7 +1,4 @@
-/*
 package com.example.questapp.services;
-
-
 import com.example.questapp.entities.Comment;
 import com.example.questapp.entities.Post;
 import com.example.questapp.entities.User;
@@ -10,7 +7,6 @@ import com.example.questapp.requestsDTO.CommentCreateRequest;
 import com.example.questapp.requestsDTO.CommentUpdateRequest;
 import com.example.questapp.responses.CommentResponse;
 import org.springframework.stereotype.Service;
-
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
@@ -77,4 +73,4 @@ public class CommentService {
     }
 
 
-}*/
+}

@@ -1,7 +1,4 @@
-/*
 package com.example.questapp.repos;
-
-
 import com.example.questapp.entities.Comment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -21,4 +18,3 @@ public interface CommentRepository extends JpaRepository<Comment, Long> {
             + "where c.post_id in :postIds limit 5", nativeQuery = true)
     List<Object> findUserCommentsByPostId(@Param("postIds") List<Long> postIds);
 }
-*/

@@ -1,4 +1,4 @@
-/*
+
 package com.example.questapp.responses;
 
 import com.example.questapp.entities.Comment;
@@ -18,4 +18,4 @@ public class CommentResponse {
         this.userName = entity.getUser().getUserName();
         this.text = entity.getText();
     }
-}*/
+}
